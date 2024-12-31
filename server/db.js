@@ -16,7 +16,7 @@ const connectToMongo = async (retryCount) => {
         const nextRetryCount = count + 1;
 
         if (nextRetryCount >= MAX_RETRIES) {
-            throw new Error('Unable to connect to Mongo!');
+            throw new Error('Unable to connect to Mongo!!');
         }
 
         console.info(`Retrying, retry count: ${nextRetryCount}`)
