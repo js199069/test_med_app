@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 // const mongoURI =  "mongodb+srv://memories-project:memoriesproject123@cluster0.ryutq.mongodb.net/stayhealthy?authSource=admin&replicaSet=atlas-svczjj-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true";
-const mongoURI =  "mongodb://root:y2L8cDLwLCtYR8BCeSTFvCr7@172.21.106.145:27017/stayhealthyfinal";
+const mongoURI =  "mongodb://root:y2L8cDLwLCtYR8BCeSTFvCr7@172.21.106.145:27017";
 
 const connectToMongo = async (retryCount) => {
     const MAX_RETRIES = 3;
